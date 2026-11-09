@@ -1,0 +1,19 @@
+{
+  "source_xml_sha256": "0b651784665718ecf61cc6fd6dc06ad66cf25429fc04cdb1f543c4b848b8f9df",
+  "sample_count": 45,
+  "top_leaf_frames": {
+    "heterobench::CpuBackend::execute()": 15,
+    "iokit_user_client_trap": 3,
+    "mach_msg2_trap": 2,
+    "__psynch_cvwait": 2,
+    "kevent_id": 2,
+    "__psynch_cvbroad": 2,
+    "_platform_memmove": 2,
+    "start_wqthread": 2,
+    "dyld4::Loader::hasExportedSymbol(Diagnostics&, dyld4::RuntimeState&, char const*, dyld4::Loader::ExportedSymbolMode, dyld4::Loader::ResolverMode, dyld4::Loader::ResolvedSymbol*, dyld3::Array<dyld4::Loader const*>*) const": 1,
+    "<deduplicated_symbol>": 1,
+    "__mac_syscall": 1,
+    "objc_msgSend": 1
+  },
+  "scope": "Whole application active CPU samples, including startup and reference validation; not timed-loop fractions"
+}

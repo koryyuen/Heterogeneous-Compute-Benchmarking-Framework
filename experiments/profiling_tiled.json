@@ -1,0 +1,12 @@
+{
+  "source_xml_sha256": "926c0a9ba183745c190e2ad9c2c41103bcd9dba10a7e701989d55a347b080bf3",
+  "filter": "heterobench process, labeled HeteroBench, Active Compute, minimum nesting depth",
+  "interval_count": 311,
+  "nesting_depth": 0,
+  "median_compute_interval_ms": 0.428958,
+  "compute_union_ms": 144.700999,
+  "compute_span_ms": 229.969625,
+  "target_compute_busy_fraction_within_span": 0.6292178760564574,
+  "median_gap_ms": 0.2399585,
+  "interpretation": "Instrumented target-only intervals; not system GPU utilization or benchmark latency"
+}

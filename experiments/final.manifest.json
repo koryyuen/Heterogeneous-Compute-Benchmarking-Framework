@@ -1,0 +1,43 @@
+{
+  "argv": [
+    "/Users/koryyuen/Desktop/heterobench/build/final/heterobench",
+    "--backend",
+    "all",
+    "--sizes",
+    "64,128,256,512",
+    "--runs",
+    "3",
+    "--iterations",
+    "20",
+    "--warmup",
+    "5",
+    "--output",
+    "/Users/koryyuen/Desktop/heterobench/experiments/final"
+  ],
+  "binary_sha256": "ded26ae21817d0c9e334844cf65e60b19dd0d24d9a9a6cb5cd99111bf69f83b3",
+  "source_sha256": {
+    "CMakeLists.txt": "29768b59ed651cda4ee87285053f4e56347779d285daa122be1129b4aacab90c",
+    "include/heterobench/accelerate_backend.hpp": "64b3ae950966265f0c1be2af90ed5a4be46350f79f24ac51d11111e7c0021a7a",
+    "include/heterobench/backend.hpp": "69d9f05332c6ce79e5e22fc190132fd75955b2c8503e4741515601202d061331",
+    "include/heterobench/benchmark.hpp": "51e8d43234e0707938a87dc85867cff5a3506e6e0fe57b3cad1b682241148689",
+    "include/heterobench/cpu_backend.hpp": "9dd422067fbe8662009b4edeaa78aecc277e21cbbea68c5bee6da51ffd985d3f",
+    "include/heterobench/metal_backend.hpp": "ff5941b2356a89541f1177d3d1f94cf48c5f6da87c8cf0ad485bb85205ad8e98",
+    "include/heterobench/results.hpp": "9e25ae854464c084adb593efeb5b3279dee6ffb662d0a402923df5cfed403d72",
+    "include/heterobench/validation.hpp": "63db680630481915e411d9433a9fb92f7b37a9ccf437df0276830537eca982b0",
+    "include/heterobench/workload.hpp": "c77bbcb3584cd911500489475178ab96488d8bf13473a99805e480ec6a9e3ec9",
+    "scripts/analyze_results.py": "2bbcbc0c981f817ade28f5e5e76c97a719a50979845ec04b73bd561c8b3861dc",
+    "scripts/profile_metal.py": "c45213ac8320bed1a3c193d0ca6416c1265534e986cf0d8b5daf875e56be3448",
+    "scripts/run_experiments.py": "a33f3e9e6bda52fdeb006fb87ce4ed30fea2ba58f1ebd3e577afa84da3a8e596",
+    "scripts/summarize_trace.py": "0e9b238799ae7bb68fc0287803d55f2486b93a3fd922fe6dacb73ad7ced8a6e3",
+    "shaders/matmul.metal": "e989e66c8f8d8637efdfa913d0c366ba8714a32ae076d68ad614aceeb1e16aaa",
+    "src/accelerate_backend.cpp": "74e2c1959b368774d90ca4cf3482f5fd1f2652949c2fed87e32f042c20a5c11a",
+    "src/benchmark.cpp": "049c95975603d84d9078c3d2008f8d7a3fc675c2951d9e40d2d264735c0ecf48",
+    "src/cpu_backend.cpp": "f552b3936d031b4dc328f8eff9f72853eb7fbafe6ee32798f2619522c8623f39",
+    "src/main.cpp": "4b82d978876f94f8937121e8c64f7a0682e58c0846cb68b0c74fa32c8fe8fb4c",
+    "src/metal_backend.mm": "6047c8bd3b6628734f05350d574139e80bf95a131ed6d4b447102caca3d04575",
+    "src/results.cpp": "1f1e3dadf6ef81e9b83c12f5d938b75370a0f6a50717fec0a119413acd3636a8",
+    "src/system_info.cpp": "b8d46a56c7d6df1e2989ed73193ce090fb893e2920de7cd8cf186e2ab5e13183"
+  },
+  "returncode": 0,
+  "stderr": ""
+}

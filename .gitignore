@@ -1,0 +1,13 @@
+build/
+cmake-build-*/
+results/
+*.trace/
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+AGENTS.md
+PROJECTCONTEXT.md
+PROJECT_CONTEXT.md
+WEEK*_WALKTHROUGH.md
+docs/

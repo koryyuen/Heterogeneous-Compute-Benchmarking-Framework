@@ -1,0 +1,6 @@
+{
+  "python": "3.13.3 (v3.13.3:6280bb54784, Apr  8 2025, 10:47:54) [Clang 15.0.0 (clang-1500.3.9.4)]",
+  "matplotlib": "3.10.8",
+  "plot_backend": "Agg",
+  "latency_error_bars": "population stddev of independent run medians"
+}
